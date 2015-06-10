@@ -1,0 +1,22 @@
+{
+    "node": true,
+    "strict": true,
+    "globalstrict": true,
+    "bitwise": true,
+    "camelcase": false,
+    "curly": true,
+    "forin": true,
+    "undef": true,
+    "eqeqeq": true,
+    "immed": false,
+    "latedef": true,
+    "maxerr": 50,
+    "noarg": true,
+    "unused": "vars",
+    "debug": false,
+    "eqnull": true,
+    "trailing": true,
+    "esnext": true,
+    "globals": {
+    }
+}

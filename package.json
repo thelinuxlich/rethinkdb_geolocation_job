@@ -1,0 +1,23 @@
+{
+  "name": "rethinkdb_geolocation_job",
+  "version": "1.0.0",
+  "description": "A sample project from the article \"The chemical wedding of RethinkDB and Node.js\"",
+  "main": "cronjob.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelinuxlich/rethinkdb_geolocation_job.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thelinuxlich/rethinkdb_geolocation_job/issues"
+  },
+  "homepage": "https://github.com/thelinuxlich/rethinkdb_geolocation_job#readme",
+  "dependencies": {
+    "cron": "^1.0.9",
+    "rethinkdbdash": "^2.0.11"
+  }
+}
