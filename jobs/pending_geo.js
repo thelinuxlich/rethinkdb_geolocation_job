@@ -16,6 +16,7 @@ module.exports = function(r) {
             )
         });
     };
+
     const get_weather_from_api = function(session, geo) {
         const API_URL = r("http://api.openweathermap.org/data/2.5/weather?lat=")
             .add(geo("latitude").coerceTo("string")).add("&lon=")
