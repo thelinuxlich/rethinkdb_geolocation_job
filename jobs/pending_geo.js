@@ -83,7 +83,7 @@ module.exports = function(r) {
     };
 
     const geo_from_cache = function(session) {
-        return r.table("cached_geolocations").get(session("old_val")("ip"))
+        return r.table("cached_geolocations").get(session("old_val")("id"))
             .do(function(geo) {
                 return r.branch(
                     geo.eq(null), // no cache
